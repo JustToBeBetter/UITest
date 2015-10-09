@@ -10,6 +10,9 @@
 
 @interface ViewController : UIViewController
 
-
+@property (nonatomic, copy) NSString *textColor;
+@property (nonatomic)        BOOL isMoving;
+@property (nonatomic)        BOOL isV;
+@property (nonatomic, copy) NSString *backgroundColor;
 @end
 
